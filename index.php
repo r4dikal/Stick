@@ -5,7 +5,7 @@ ini_set("error_log", __DIR__."/error_log");
 require 'farsiGD.php';
 $gd = new FarsiGD();
 ob_start();
-define('API_KEY','XXX:XXX');// your API KEY here ...
+define('API_KEY','245944916:AAEgkVC0T2_UJX_64vRhfQcMwDhIoON4YJI');// your API KEY here ...
 $update = json_decode(file_get_contents('php://input'));
 function makeHTTPRequest($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -34,7 +34,7 @@ if(isset($update->message)){
 
 ▪️now send me a <b>message</b> and i will convert it :)
 
-▪️also you can <a href="https://telegram.me/pp2007ws">Contact Me !</a>',
+▪️also you can <a href="https://telegram.me/Erro_0r">Contact Me !</a>',
             'parse_mode'=>'HTML',
             'disable_web_page_preview'=>true
         ]);
